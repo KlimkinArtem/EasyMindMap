@@ -10,9 +10,13 @@
 		D16488E323EAA3A9004E2FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488E223EAA3A9004E2FF1 /* AppDelegate.swift */; };
 		D16488E523EAA3A9004E2FF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488E423EAA3A9004E2FF1 /* SceneDelegate.swift */; };
 		D16488E723EAA3A9004E2FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488E623EAA3A9004E2FF1 /* ViewController.swift */; };
-		D16488EA23EAA3A9004E2FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16488E823EAA3A9004E2FF1 /* Main.storyboard */; };
 		D16488EC23EAA3AB004E2FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16488EB23EAA3AB004E2FF1 /* Assets.xcassets */; };
 		D16488EF23EAA3AB004E2FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16488ED23EAA3AB004E2FF1 /* LaunchScreen.storyboard */; };
+		D16488F723EAA900004E2FF1 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488F623EAA900004E2FF1 /* Button.swift */; };
+		D16488F923EAA951004E2FF1 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488F823EAA951004E2FF1 /* BodyLabel.swift */; };
+		D16488FB23EAA96B004E2FF1 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488FA23EAA96B004E2FF1 /* TitleLabel.swift */; };
+		D16488FD23EAA987004E2FF1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488FC23EAA987004E2FF1 /* TextField.swift */; };
+		D16488FF23EAA9C0004E2FF1 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16488FE23EAA9C0004E2FF1 /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		D16488E223EAA3A9004E2FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D16488E423EAA3A9004E2FF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D16488E623EAA3A9004E2FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D16488E923EAA3A9004E2FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D16488EB23EAA3AB004E2FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D16488EE23EAA3AB004E2FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D16488F023EAA3AB004E2FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16488F623EAA900004E2FF1 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		D16488F823EAA951004E2FF1 /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
+		D16488FA23EAA96B004E2FF1 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		D16488FC23EAA987004E2FF1 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		D16488FE23EAA9C0004E2FF1 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				D16488E223EAA3A9004E2FF1 /* AppDelegate.swift */,
 				D16488E423EAA3A9004E2FF1 /* SceneDelegate.swift */,
 				D16488E623EAA3A9004E2FF1 /* ViewController.swift */,
-				D16488E823EAA3A9004E2FF1 /* Main.storyboard */,
+				D164890023EAAA00004E2FF1 /* UiComponents */,
 				D16488EB23EAA3AB004E2FF1 /* Assets.xcassets */,
 				D16488ED23EAA3AB004E2FF1 /* LaunchScreen.storyboard */,
 				D16488F023EAA3AB004E2FF1 /* Info.plist */,
 			);
 			path = EasyMindMap;
+			sourceTree = "<group>";
+		};
+		D164890023EAAA00004E2FF1 /* UiComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D16488F623EAA900004E2FF1 /* Button.swift */,
+				D16488F823EAA951004E2FF1 /* BodyLabel.swift */,
+				D16488FA23EAA96B004E2FF1 /* TitleLabel.swift */,
+				D16488FC23EAA987004E2FF1 /* TextField.swift */,
+				D16488FE23EAA9C0004E2FF1 /* ContainerView.swift */,
+			);
+			path = UiComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,6 @@
 			files = (
 				D16488EF23EAA3AB004E2FF1 /* LaunchScreen.storyboard in Resources */,
 				D16488EC23EAA3AB004E2FF1 /* Assets.xcassets in Resources */,
-				D16488EA23EAA3A9004E2FF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +159,18 @@
 			files = (
 				D16488E723EAA3A9004E2FF1 /* ViewController.swift in Sources */,
 				D16488E323EAA3A9004E2FF1 /* AppDelegate.swift in Sources */,
+				D16488F923EAA951004E2FF1 /* BodyLabel.swift in Sources */,
+				D16488FD23EAA987004E2FF1 /* TextField.swift in Sources */,
+				D16488FF23EAA9C0004E2FF1 /* ContainerView.swift in Sources */,
+				D16488FB23EAA96B004E2FF1 /* TitleLabel.swift in Sources */,
 				D16488E523EAA3A9004E2FF1 /* SceneDelegate.swift in Sources */,
+				D16488F723EAA900004E2FF1 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D16488E823EAA3A9004E2FF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D16488E923EAA3A9004E2FF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D16488ED23EAA3AB004E2FF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArtemKlimkin.EasyMindMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArtemKlimkin.EasyMindMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
