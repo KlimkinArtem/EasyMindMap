@@ -10,7 +10,6 @@ import UIKit
 
 let mainContainerButton = Button(frame: .zero)
 
-
 class ViewController: UIViewController {
 
     let mainContainer = ContainerView(frame: .zero)
@@ -97,7 +96,7 @@ class ViewController: UIViewController {
     }
     
     @objc func showAlert() {
-        print(#function)
+        presentAlert()
     }
     
     @objc func showNote(){
@@ -106,22 +105,16 @@ class ViewController: UIViewController {
     
     
     @objc func panContainer(pan: UIPanGestureRecognizer) {
-
-            
         let location = pan.location(in: view)
             
         mainContainer.center = location
-
     }
     
     
     @objc func panContainerTest(pan: UIPanGestureRecognizer) {
-
-            
         let location = pan.location(in: view)
             
         mainTestContainer.center = location
-
     }
 }
 

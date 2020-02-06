@@ -15,6 +15,7 @@ class TextField: UITextField {
         configure()
     }
     
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -35,9 +36,6 @@ class TextField: UITextField {
         returnKeyType = .go
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
-        
-        placeholder = "Enter a username"
-        
     }
 
 }
